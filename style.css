@@ -2,14 +2,33 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .hornet {
-    width: 50%;
-}
-.titulo {
-    width: 200px;
+    width: 600px;
+    margin-top: 200px; /* Define uma margem de 10 pixels no topo da imagem */
+    margin-bottom: 0px; /* Define uma margem de 20 pixels na parte inferior da imagem */
+    margin-left:300px; /* Define uma margem de 30 pixels à esquerda da imagem */
+    margin-right: 0px; /* Define uma margem de 40 pixels à direita da imagem */
+
+    border: 4px solid black; /* Define a largura, o estilo e a cor da borda */
+    border-radius: 5px; /* Define o raio do arredondamento */
 }
 .cabecalho {
-    background-color: #FF4C4C;
+    background-color: #FF4C4C; /* cor do cabeçalho*/
+    height: 120px;
 }
-.team-charry-logo {
-    width: 10px;
+.imagem-no-cabecalho {
+    width: 80px;
+    margin-top: 10px; /* Define uma margem de 10 pixels no topo da imagem */
+    margin-bottom: 20px; /* Define uma margem de 20 pixels na parte inferior da imagem */
+    margin-left: 90px; /* Define uma margem de 30 pixels à esquerda da imagem */
+    margin-right: 40px; /* Define uma margem de 40 pixels à direita da imagem */
+}
+.titulo {
+    color: #FF4C4C; /* Define a cor do texto */
+    font-size: 60px; /* Define o tamanho da fonte como 16 pixels */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-top: 1px; /* Define uma margem de 10 pixels no topo da imagem */
+    margin-bottom: 20px; /* Define uma margem de 20 pixels na parte inferior da imagem */
+    margin-left:1800px; /* Define uma margem de 30 pixels à esquerda da imagem */
+    margin-right: 40px; /* Define uma margem de 40 pixels à direita da imagem */ 
 }
