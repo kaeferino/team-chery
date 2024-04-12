@@ -16,6 +16,7 @@ body{
     background-color: #FF4C4C; /* cor do cabeçalho*/
     height: 120px;
     padding: 0px;
+    margin: 0px;
 }
 .imagem-no-cabecalho {
     width: 80px;
