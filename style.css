@@ -6,11 +6,12 @@ body{
     width: 600px;
     margin-top: 200px; /* Define uma margem de 10 pixels no topo da imagem */
     margin-bottom: 0px; /* Define uma margem de 20 pixels na parte inferior da imagem */
-    margin-left:300px; /* Define uma margem de 30 pixels à esquerda da imagem */
+    margin-left:100px; /* Define uma margem de 30 pixels à esquerda da imagem */
     margin-right: 0px; /* Define uma margem de 40 pixels à direita da imagem */
 
     border: 4px solid black; /* Define a largura, o estilo e a cor da borda */
     border-radius: 5px; /* Define o raio do arredondamento */
+    display: inline-flex;
 }
 .cabecalho {
     background-color: #FF4C4C; /* cor do cabeçalho*/
@@ -34,4 +35,7 @@ body{
     margin-bottom: 20px; /* Define uma margem de 20 pixels na parte inferior da imagem */
     margin-left:1800px; /* Define uma margem de 30 pixels à esquerda da imagem */
     margin-right: 40px; /* Define uma margem de 40 pixels à direita da imagem */ 
+}
+.dutyf {
+    display: inline-flex;
 }
